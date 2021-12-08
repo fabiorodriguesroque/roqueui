@@ -1,0 +1,25 @@
+{
+    "name": "fabioroque/roque-ui",
+    "description": "Laravel components with tailwindcss",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "fabiorodriguesroque",
+            "email": "fabioroque9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fabioroque\\Roqueui\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fabioroque\\Roqueui\\RoqueuiServiceProvider"
+            ]
+        }
+    }
+}
